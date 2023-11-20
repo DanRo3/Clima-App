@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+    background: url(images/Fondo.jpeg) 
+    no-repeat center;
+}
+
+::placeholder { 
+    color: rgba(255, 255, 255, 0.592);
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 470px;
+    color: black;
+    border-radius: 20px;
+    border-color: rgba(2, 2, 2, 0.419);
+    padding: 40px 35px;
+    text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+}
+
+.cajaBusqueda{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cajaBusqueda input{
+    border: 0;
+    outline: 0;
+    background: #02020210;
+    backdrop-filter: blur(0.4rem);
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 20px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.cajaBusqueda button{
+    border: 0;
+    outline: 0;
+    border-radius: 30%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background: #0a0a0a10;
+    backdrop-filter: blur(0.4rem);
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+}
+
+.cajaBusqueda button img{
+    width: 30px;
+}
+
+.img-tiempo{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.tiempo{
+    display: none;
+    color: white;
+}
+.tiempo h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.tiempo h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.otrosDatos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.column img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.viento{
+    font-size: 28px;
+    margin-top: -5px;
+}
+.humedad{
+    font-size: 28px;
+    margin-top: -5px;
+}
+
+.NonFound{
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
